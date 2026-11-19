@@ -9,7 +9,14 @@ Contenido sobre GTA VI para TikTok y YouTube Shorts: curiosidades, secretos, teo
 - `src/`: el pipeline que los genera (guion → voz → música → animación → montaje).
 
 ## Regenerar o crear vídeos nuevos
-Todo el material visual y la música son originales y se generan por código. No se usan imágenes, logos ni música de Rockstar.
+Hay dos estilos:
+- **Estilo 1** (`src/build.py`, vídeos 02, 04, 06, 07 y 09): fondo synthwave animado y gráficos generados por código.
+- **Estilo 2** (`src/build2.py`, vídeos 01, 03, 05, 08, 10, 11, 12, 13 y 14): planos reales de los tráilers oficiales de GTA VI
+  a pantalla completa, con título numerado, paneles tipo HUD y subtítulos en cursiva. Los clips no están en el repositorio:
+  se ponen en `CLIPS_DIR` (c2.mp4 … c6.mp4 + shots.json) y en `src/planos.py` se elige qué planos van con cada escena.
+  Se usa solo la imagen: el audio del tráiler se descarta.
+
+La voz y la música son las mismas en los dos estilos (música generada por código, sin copyright).
 
 ```bash
 pip install -r requirements.txt
@@ -22,5 +29,6 @@ cd ..
 python src/build.py tts
 python src/build.py render            # o: render 01_13_anos_de_espera
 python src/publicacion.py
+CLIPS_DIR=/ruta/clips python src/build2.py render   # estilo 2
 ```
 Requiere `ffmpeg` y la fuente Inter. La voz se elige con `VOICE=em_alex|em_santa|ef_dora`.
