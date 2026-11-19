@@ -1,10 +1,10 @@
-# Publicación: 14 Shorts de GTA
+# Publicación: 16 Shorts de GTA
 
 Todos los vídeos están en `videos/` (MP4 vertical 1080×1920, 30 fps, H.264 + AAC, audio normalizado a −14 LUFS, menos de 60 s). Cada uno tiene su portada `_portada.jpg`.
 
 ## Calendario
 
-**Opción A (lo que pediste):** programar los 14 para el **viernes 20 de noviembre a las 15:00**.
+**Opción A (lo que pediste):** programar los 16 para el **viernes 20 de noviembre a las 15:00**.
 
 **Opción B (recomendada para crecer):** los 3 más fuertes el viernes a las 15:00 y luego uno al día a la misma hora. Un canal nuevo que sube muchos Shorts a la vez reparte las visualizaciones de prueba entre todos; publicar a diario le da al algoritmo una señal constante.
 
@@ -12,22 +12,24 @@ Todos los vídeos están en `videos/` (MP4 vertical 1080×1920, 30 fps, H.264 + 
 |---|---|---|---|
 | 1 | `videos/01_13_anos_de_espera.mp4` | 46 s | Vie 20 nov · 15:00 |
 | 2 | `videos/12_ganar_dinero_rapido.mp4` | 41 s | Vie 20 nov · 15:00 |
-| 3 | `videos/03_vice_city_2002_vs_2026.mp4` | 44 s | Vie 20 nov · 15:00 |
-| 4 | `videos/14_lo_que_gta6_no_te_explica.mp4` | 41 s | Sáb 21 nov · 15:00 |
-| 5 | `videos/11_trucos_gta6.mp4` | 37 s | Dom 22 nov · 15:00 |
-| 6 | `videos/08_la_mayor_filtracion.mp4` | 38 s | Lun 23 nov · 15:00 |
-| 7 | `videos/13_no_pierdas_tu_dinero.mp4` | 36 s | Mar 24 nov · 15:00 |
-| 8 | `videos/04_evolucion_protagonistas.mp4` | 46 s | Mié 25 nov · 15:00 |
-| 9 | `videos/10_por_que_tardo_tanto.mp4` | 32 s | Jue 26 nov · 15:00 |
-| 10 | `videos/05_ciudades_gta_vs_reales.mp4` | 29 s | Vie 27 nov · 15:00 |
-| 11 | `videos/06_records_gta_v.mp4` | 32 s | Sáb 28 nov · 15:00 |
-| 12 | `videos/02_gta_nacio_de_un_bug.mp4` | 44 s | Dom 29 nov · 15:00 |
-| 13 | `videos/09_easter_eggs_legendarios.mp4` | 33 s | Lun 30 nov · 15:00 |
-| 14 | `videos/07_curiosidades_san_andreas.mp4` | 38 s | Mar 1 dic · 15:00 |
+| 3 | `videos/16_easter_eggs_gta6.mp4` | — | Vie 20 nov · 15:00 |
+| 4 | `videos/03_vice_city_2002_vs_2026.mp4` | 44 s | Sáb 21 nov · 15:00 |
+| 5 | `videos/14_lo_que_gta6_no_te_explica.mp4` | 41 s | Dom 22 nov · 15:00 |
+| 6 | `videos/15_secretos_trailers_gta6.mp4` | — | Lun 23 nov · 15:00 |
+| 7 | `videos/11_trucos_gta6.mp4` | 37 s | Mar 24 nov · 15:00 |
+| 8 | `videos/08_la_mayor_filtracion.mp4` | 38 s | Mié 25 nov · 15:00 |
+| 9 | `videos/13_no_pierdas_tu_dinero.mp4` | 36 s | Jue 26 nov · 15:00 |
+| 10 | `videos/04_evolucion_protagonistas.mp4` | 43 s | Vie 27 nov · 15:00 |
+| 11 | `videos/10_por_que_tardo_tanto.mp4` | 32 s | Sáb 28 nov · 15:00 |
+| 12 | `videos/05_ciudades_gta_vs_reales.mp4` | 29 s | Dom 29 nov · 15:00 |
+| 13 | `videos/06_records_gta_v.mp4` | 29 s | Lun 30 nov · 15:00 |
+| 14 | `videos/02_gta_nacio_de_un_bug.mp4` | 43 s | Mar 1 dic · 15:00 |
+| 15 | `videos/09_easter_eggs_legendarios.mp4` | 32 s | Mié 2 dic · 15:00 |
+| 16 | `videos/07_curiosidades_san_andreas.mp4` | 37 s | Jue 3 dic · 15:00 |
 
-> Los vídeos 11–14 (trucos, dinero y consejos de GTA VI) se basan en guías publicadas en la semana del lanzamiento. Solo incluyen datos en los que coinciden varias guías, pero conviene revisarlos si sale un parche.
+> Los vídeos 11–16 (trucos, dinero, consejos y secretos de GTA VI) se basan en guías publicadas en la semana del lanzamiento. Solo incluyen datos en los que coinciden varias guías, pero conviene revisarlos si sale un parche.
 
-> **Planos de los tráilers:** los vídeos 01, 03, 05, 08, 10, 11, 12, 13 y 14 usan imágenes de los tráilers oficiales de GTA VI (sin su audio). Pueden recibir una reclamación de Content ID de Rockstar. Si pasa, normalmente el vídeo sigue publicado, pero los ingresos de ese vídeo pueden ir para Rockstar o puede quedar bloqueado en algunos países. Revisa el aviso en YouTube Studio → Contenido → Restricciones.
+> **Planos de los tráilers:** los vídeos 01, 03, 05, 08, 10, 11, 12, 13, 14, 15 y 16 usan imágenes de los tráilers oficiales de GTA VI (sin su audio). Pueden recibir una reclamación de Content ID de Rockstar. Si pasa, normalmente el vídeo sigue publicado, pero los ingresos de ese vídeo pueden ir para Rockstar o puede quedar bloqueado en algunos países. Revisa el aviso en YouTube Studio → Contenido → Restricciones.
 
 ## Cómo programarlos (YouTube Studio)
 
@@ -77,7 +79,24 @@ Las mejores formas de ganar dinero al principio de GTA 6: tesoros submarinos, co
 dinero gta 6, ganar dinero gta 6, gta 6 dinero rapido, gta 6 guia, kenton gta 6, gta 6 consejos, gta vi dinero, gta 6 atracos
 ```
 
-### 3. `03_vice_city_2002_vs_2026.mp4`
+### 3. `16_easter_eggs_gta6.mp4`
+
+**Título:**
+```
+Easter eggs que YA han encontrado en GTA 6 🥚 #shorts
+```
+**Descripción:**
+```
+Guiños a Red Dead y a GTA IV, el apartamento de Dexter, el nido secreto de la torre de radio y la matrícula más loca del juego.
+
+#gta6 #gtavi #eastereggs #secretos #gta #shorts
+```
+**Etiquetas:**
+```
+easter eggs gta 6, secretos gta 6, gta 6 dexter, gta 6 red dead, gta 6 nido torre, gta 6 curiosidades, gta vi, gta 6 secretos mapa
+```
+
+### 4. `03_vice_city_2002_vs_2026.mp4`
 
 **Título:**
 ```
@@ -94,7 +113,7 @@ Comparamos GTA Vice City (2002) con el Vice City de GTA 6: época, protagonistas
 vice city, gta vice city, gta 6, vice city vs gta 6, antes y ahora, comparacion gta, tommy vercetti, lucia gta 6, leonida
 ```
 
-### 4. `14_lo_que_gta6_no_te_explica.mp4`
+### 5. `14_lo_que_gta6_no_te_explica.mp4`
 
 **Título:**
 ```
@@ -111,7 +130,24 @@ Modo Focus, empujar vehículos, localizadores, la hora del día, transporte púb
 gta 6 consejos, gta 6 trucos, gta 6 principiantes, gta 6 modo focus, gta 6 guia, cosas que no sabias gta 6, gta vi, gta 6 tips
 ```
 
-### 5. `11_trucos_gta6.mp4`
+### 6. `15_secretos_trailers_gta6.mp4`
+
+**Título:**
+```
+Detalles ESCONDIDOS en los tráilers de GTA 6 que casi nadie vio 👀 #shorts
+```
+**Descripción:**
+```
+La camiseta de Jason, el Ammu-Nation de Phil, la iguana de Tommy Vercetti y la ciudad de Hamlet: los guiños escondidos en los tráilers de GTA 6.
+
+#gta6 #gtavi #eastereggs #secretos #gta #shorts
+```
+**Etiquetas:**
+```
+gta 6 secretos, gta 6 easter eggs, detalles trailer gta 6, gta 6 trailer, gta vi, tommy vercetti gta 6, phil cassidy, curiosidades gta 6
+```
+
+### 7. `11_trucos_gta6.mp4`
 
 **Título:**
 ```
@@ -128,7 +164,7 @@ Cómo se desbloquean y cómo se introducen los trucos en GTA 6, y qué pasa con 
 trucos gta 6, gta 6 cheats, claves gta 6, como poner trucos gta 6, gta 6 ps5, gta 6 xbox, gta vi, gta 6 trucos dinero
 ```
 
-### 6. `08_la_mayor_filtracion.mp4`
+### 8. `08_la_mayor_filtracion.mp4`
 
 **Título:**
 ```
@@ -145,7 +181,7 @@ En 2022 un adolescente filtró más de 90 vídeos de GTA 6. Así lo hizo y así 
 gta 6 leak, filtracion gta 6, hacker gta 6, gta 6, rockstar games, gta 6 trailer filtrado, curiosidades gta
 ```
 
-### 7. `13_no_pierdas_tu_dinero.mp4`
+### 9. `13_no_pierdas_tu_dinero.mp4`
 
 **Título:**
 ```
@@ -162,7 +198,7 @@ En GTA 6 el efectivo se pierde al morir o al ser arrestado. Dónde esconderlo, c
 gta 6 dinero, gta 6 morir pierdes dinero, buckme gta 6, banco gta 6, gta 6 consejos, family savings gta 6, gta vi, gta 6 guia
 ```
 
-### 8. `04_evolucion_protagonistas.mp4`
+### 10. `04_evolucion_protagonistas.mp4`
 
 **Título:**
 ```
@@ -179,7 +215,7 @@ De Claude, que nunca habla, a Lucía y Jason en GTA 6. Así han cambiado los pro
 protagonistas gta, evolucion gta, cj, niko bellic, tommy vercetti, trevor, lucia gta 6, jason gta 6, gta 6
 ```
 
-### 9. `10_por_que_tardo_tanto.mp4`
+### 11. `10_por_que_tardo_tanto.mp4`
 
 **Título:**
 ```
@@ -196,7 +232,7 @@ Mira cuántos años pasaron entre cada GTA y por qué GTA 6 tardó más de 13 a�
 gta 6, por que gta 6 tardo, gta 6 retraso, gta online, red dead redemption 2, rockstar games, historia gta, gta 5
 ```
 
-### 10. `05_ciudades_gta_vs_reales.mp4`
+### 12. `05_ciudades_gta_vs_reales.mp4`
 
 **Título:**
 ```
@@ -213,7 +249,7 @@ Liberty City, Vice City, Los Santos, San Fierro, Las Venturas y Leonida: estas s
 ciudades gta, gta vida real, leonida florida, vice city miami, los santos los angeles, liberty city nueva york, gta 6 mapa, curiosidades gta
 ```
 
-### 11. `06_records_gta_v.mp4`
+### 13. `06_records_gta_v.mp4`
 
 **Título:**
 ```
@@ -230,7 +266,7 @@ Mil millones de dólares en 3 días, más de 230 millones de copias y tres gener
 gta 5, records gta 5, gta 5 ventas, juego mas vendido, gta online, gta 6, curiosidades gta, guinness gta
 ```
 
-### 12. `02_gta_nacio_de_un_bug.mp4`
+### 14. `02_gta_nacio_de_un_bug.mp4`
 
 **Título:**
 ```
@@ -247,7 +283,7 @@ Antes de llamarse Grand Theft Auto era un juego de carreras llamado Race'n'Chase
 gta, origen de gta, race n chase, dma design, rockstar north, curiosidades gta, historia de gta, gta 1, gta 6
 ```
 
-### 13. `09_easter_eggs_legendarios.mp4`
+### 15. `09_easter_eggs_legendarios.mp4`
 
 **Título:**
 ```
@@ -264,7 +300,7 @@ El corazón de la Estatua de la Felicidad, el misterio del Monte Chiliad, el OVN
 easter eggs gta, secretos gta, monte chiliad, estatua de la felicidad, ovni gta 5, gta 3 secreto, misterios gta, gta 6
 ```
 
-### 14. `07_curiosidades_san_andreas.mp4`
+### 16. `07_curiosidades_san_andreas.mp4`
 
 **Título:**
 ```
