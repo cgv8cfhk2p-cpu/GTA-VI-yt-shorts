@@ -284,3 +284,125 @@ VIDEOS = [
         ],
     },
 ]
+
+VIDEOS += [
+    # ------------------------------------------------------------------ 11
+    {
+        "id": "11_trucos_gta6",
+        "theme": "night",
+        "title": "Los TRUCOS de GTA 6 no funcionan… hasta que haces esto 🎮 #shorts",
+        "description": (
+            "Cómo se desbloquean y cómo se introducen los trucos en GTA 6, y qué pasa con los trofeos y el guardado.\n\n"
+            "#gta6 #trucosgta6 #gtavi #cheats #gta #shorts"
+        ),
+        "tags": ["trucos gta 6", "gta 6 cheats", "claves gta 6", "como poner trucos gta 6", "gta 6 ps5",
+                 "gta 6 xbox", "gta vi", "gta 6 trucos dinero"],
+        "scenes": [
+            {"say": "En GTA 6 los trucos existen, pero no funcionan hasta que haces esto.",
+             "vis": {"type": "title", "lines": ["TRUCOS DE", "*GTA VI*"]}},
+            {"say": "Primero: los trucos están bloqueados hasta que terminas la historia principal.",
+             "vis": {"type": "facts", "icon": "lock", "head": "BLOQUEADOS", "body": "Primero tienes que terminar la historia"}},
+            {"say": "Las guías cuentan 61 trucos, y cada uno se desbloquea con su propio reto.",
+             "vis": {"type": "counter", "value": 61, "tag": "TRUCOS", "label": "cada uno con su propio reto"}},
+            {"say": "Por ejemplo, para el chaleco antibalas tienes que completar cien entrenamientos.",
+             "vis": {"type": "facts", "icon": "trophy", "head": "UN RETO POR TRUCO", "body": "Chaleco antibalas = 100 entrenamientos"}},
+            {"say": "Para usarlos: abre el móvil con la flecha arriba, mantén L1 y R1, y mete la combinación en la cruceta. En Xbox, LB y RB.",
+             "vis": {"type": "facts", "icon": "gamepad", "head": "CÓMO SE METEN", "body": "Móvil (↑) · mantén L1 + R1 · combinación en la cruceta"}},
+            {"say": "Ojo: mientras usas trucos se desactivan los trofeos y no puedes guardar. Haz una partida aparte.",
+             "vis": {"type": "facts", "icon": "warning", "head": "OJO CON ESTO", "body": "Sin trofeos ni guardado: usa otra partida"}},
+            {"say": "¿Qué truco quieres probar primero? Sígueme para más trucos.",
+             "vis": {"type": "outro", "q": "¿Qué truco *quieres probar?*"}},
+        ],
+    },
+    # ------------------------------------------------------------------ 12
+    {
+        "id": "12_ganar_dinero_rapido",
+        "theme": "gold",
+        "title": "5 formas de ganar DINERO RÁPIDO en GTA 6 💸 #shorts",
+        "description": (
+            "Las mejores formas de ganar dinero al principio de GTA 6: tesoros submarinos, coches, atracos, "
+            "historia y bancos. Y el error que no debes cometer en el capítulo 1.\n\n"
+            "#gta6 #dinerogta6 #gtavi #gta #guia #shorts"
+        ),
+        "tags": ["dinero gta 6", "ganar dinero gta 6", "gta 6 dinero rapido", "gta 6 guia", "kenton gta 6",
+                 "gta 6 consejos", "gta vi dinero", "gta 6 atracos"],
+        "scenes": [
+            {"say": "Las mejores formas de ganar dinero rápido al empezar GTA 6.",
+             "vis": {"type": "title", "lines": ["DINERO RÁPIDO", "EN *GTA VI*"]}},
+            {"say": "Uno: las inmersiones de Kenton, en los Cayos de Leonida. Unos 1400 dólares por cada pecio, y sin policía.",
+             "vis": {"type": "facts", "num": "1", "icon": "chest", "head": "TESOROS SUBMARINOS", "body": "Unos 1.400 $ por pecio y sin policía"}},
+            {"say": "Dos: robar coches y venderlos. Es lo más fácil para empezar, pero cuidado, algunos llevan localizador.",
+             "vis": {"type": "facts", "num": "2", "icon": "car", "head": "COCHES ROBADOS", "body": "Róbalos y véndelos (ojo al localizador)"}},
+            {"say": "Tres: atracar tiendas, licorerías y locales de comida rápida.",
+             "vis": {"type": "facts", "num": "3", "icon": "skull", "head": "ATRACA TIENDAS", "body": "Tiendas, licorerías y comida rápida"}},
+            {"say": "Cuatro: avanzar en la historia. Algunas misiones pagan decenas de miles de dólares.",
+             "vis": {"type": "facts", "num": "4", "icon": "star", "head": "HAZ LA HISTORIA", "body": "Algunas misiones pagan decenas de miles"}},
+            {"say": "Y cinco: los atracos a bancos. Es lo que más paga, pero se desbloquea casi al final.",
+             "vis": {"type": "facts", "num": "5", "icon": "bank", "head": "ATRACOS A BANCOS", "body": "Lo que más paga… pero llega al final"}},
+            {"say": "Un consejo: no te mates a farmear en el capítulo uno. Varias guías avisan de que ese dinero se pierde.",
+             "vis": {"type": "facts", "icon": "warning", "head": "NO FARMEES EN EL CAP. 1", "body": "Varias guías avisan: ese dinero se pierde"}},
+            {"say": "¿Cuánto dinero llevas ya? Te leo en comentarios.",
+             "vis": {"type": "outro", "q": "¿Cuánto dinero *llevas ya?*"}},
+        ],
+    },
+    # ------------------------------------------------------------------ 13
+    {
+        "id": "13_no_pierdas_tu_dinero",
+        "theme": "leonida",
+        "title": "Si mueres en GTA 6 PIERDES tu dinero… así lo evitas 💀 #shorts",
+        "description": (
+            "En GTA 6 el efectivo se pierde al morir o al ser arrestado. Dónde esconderlo, cómo funciona la cuenta "
+            "BuckMe y la trampa de Family Savings.\n\n#gta6 #gtavi #dinerogta6 #consejos #gta #shorts"
+        ),
+        "tags": ["gta 6 dinero", "gta 6 morir pierdes dinero", "buckme gta 6", "banco gta 6", "gta 6 consejos",
+                 "family savings gta 6", "gta vi", "gta 6 guia"],
+        "scenes": [
+            {"say": "Si mueres en GTA 6, pierdes el dinero que llevas encima. Así se evita.",
+             "vis": {"type": "title", "lines": ["NO PIERDAS", "TU *DINERO*"]}},
+            {"say": "El efectivo que llevas se pierde si mueres o si te arrestan.",
+             "vis": {"type": "facts", "icon": "skull", "head": "WASTED = SIN DINERO", "body": "Pierdes el efectivo al morir o al ser arrestado"}},
+            {"say": "Al principio no tienes banco. Escóndelo bajo las tablas sueltas del suelo, en el cuarto de Jason.",
+             "vis": {"type": "facts", "icon": "chest", "head": "EL ESCONDITE", "body": "Bajo las tablas sueltas del cuarto de Jason"}},
+            {"say": "Luego, en la misión Buck Me, desbloqueas tu cuenta bancaria. Lo que metes ahí está a salvo.",
+             "vis": {"type": "facts", "icon": "bank", "head": "CUENTA BUCKME", "body": "Se desbloquea en la misión «Buck Me»"}},
+            {"say": "Además, la cuenta es compartida entre Jason y Lucía.",
+             "vis": {"type": "versus", "title": "CUENTA COMPARTIDA", "left": {"head": "J", "body": "Jason"}, "right": {"head": "L", "body": "Lucía"}}},
+            {"say": "Ojo: para ingresar efectivo tienes que ir a un cajero. Desde el móvil no se puede.",
+             "vis": {"type": "facts", "icon": "warning", "head": "SOLO EN CAJEROS", "body": "No puedes ingresar efectivo desde el móvil"}},
+            {"say": "Y cuidado con Family Savings: según las guías, ese dinero ya no se puede sacar.",
+             "vis": {"type": "facts", "icon": "lock", "head": "FAMILY SAVINGS", "body": "Lo que metes ahí no se puede sacar"}},
+            {"say": "¿Cuánto dinero has perdido ya? Cuéntamelo.",
+             "vis": {"type": "outro", "q": "¿Cuánto has *perdido ya?*"}},
+        ],
+    },
+    # ------------------------------------------------------------------ 14
+    {
+        "id": "14_lo_que_gta6_no_te_explica",
+        "theme": "sunset",
+        "title": "6 cosas que GTA 6 NO te explica (y deberías saber) 🤫 #shorts",
+        "description": (
+            "Modo Focus, empujar vehículos, localizadores, la hora del día, transporte público y guardado. "
+            "Consejos para empezar GTA 6 con ventaja.\n\n#gta6 #gtavi #consejos #trucos #gta #shorts"
+        ),
+        "tags": ["gta 6 consejos", "gta 6 trucos", "gta 6 principiantes", "gta 6 modo focus", "gta 6 guia",
+                 "cosas que no sabias gta 6", "gta vi", "gta 6 tips"],
+        "scenes": [
+            {"say": "Seis cosas que GTA 6 no te explica y deberías saber.",
+             "vis": {"type": "title", "lines": ["LO QUE GTA VI", "*NO TE EXPLICA*"]}},
+            {"say": "Uno: pulsa los dos sticks a la vez para activar el modo focus. Te marca encuentros únicos cerca de ti.",
+             "vis": {"type": "facts", "num": "1", "icon": "star", "head": "MODO FOCUS", "body": "Pulsa los dos sticks: marca encuentros cercanos"}},
+            {"say": "Dos: puedes empujar vehículos. Si encallas un barco, empújalo de vuelta al agua.",
+             "vis": {"type": "facts", "num": "2", "icon": "car", "head": "EMPUJA VEHÍCULOS", "body": "¿Barco encallado? Empújalo al agua"}},
+            {"say": "Tres: algunos coches tienen alarma o localizador. Fíjate antes de llevártelos.",
+             "vis": {"type": "facts", "num": "3", "icon": "warning", "head": "LOCALIZADORES", "body": "Algunos coches llevan alarma o rastreador"}},
+            {"say": "Cuatro: la hora importa. De noche algunas tiendas cierran, y la policía se comporta distinto.",
+             "vis": {"type": "facts", "num": "4", "icon": "clock", "head": "LA HORA IMPORTA", "body": "Tiendas, misiones y policía cambian de noche"}},
+            {"say": "Cinco: el transporte público llega a casi todo el mapa, pero los buses y trenes tienen horario.",
+             "vis": {"type": "facts", "num": "5", "icon": "pin", "head": "TRANSPORTE PÚBLICO", "body": "Barato, pero con horarios reales"}},
+            {"say": "Y seis: guarda a mano al empezar cada capítulo. No puedes repetir misiones, y algunas secundarias desaparecen.",
+             "vis": {"type": "facts", "num": "6", "icon": "lock", "head": "GUARDA A MANO", "body": "No hay repetir misión y algunas secundarias desaparecen"}},
+            {"say": "¿Cuál no sabías? Sígueme para más trucos de GTA 6.",
+             "vis": {"type": "outro", "q": "¿Cuál *no sabías?*"}},
+        ],
+    },
+]

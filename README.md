@@ -2,7 +2,7 @@
 Contenido sobre GTA VI para TikTok y YouTube Shorts: curiosidades, secretos, teorías, novedades y comparaciones con GTA V. Vídeos cortos y entretenidos para los fans de GTA.
 
 ## Qué hay aquí
-- `videos/`: los 10 Shorts terminados (MP4 1080×1920) con su portada.
+- `videos/`: los 14 Shorts terminados (MP4 1080×1920) con su portada.
 - `PUBLICACION.md`: títulos, descripciones, etiquetas y calendario para subirlos.
 - `guiones/`: el guion de cada vídeo (locución y texto en pantalla).
 - `canal/`: avatar y banner del canal.

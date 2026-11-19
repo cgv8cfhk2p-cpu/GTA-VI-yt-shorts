@@ -32,7 +32,8 @@ LEAD = 0.05
 
 # Pronunciación: el TTS lee mejor estas palabras escritas "a la española"
 PHON = [
-    ("GTA Online", "ge te a onláin"), ("GTA", "ge te a"), ("Rockstar North", "Rocstar Nors"), ("Rockstar", "Rocstar"),
+    ("GTA Online", "ge te a onláin"), ("Family Savings", "Fámili Séivings"), ("Buck Me", "Bac Mi"),
+    ("L1 y R1", "ele uno y erre uno"), ("LB y RB", "ele be y erre be"), ("modo focus", "modo fócus"), ("Kenton", "Kénton"), ("GTA", "ge te a"), ("Rockstar North", "Rocstar Nors"), ("Rockstar", "Rocstar"),
     ("Vice City", "Váis Síti"), ("Liberty City", "Líberti Síti"), ("Race and Chase", "Réis an Chéis"),
     ("DMA Design", "de eme a disáin"), ("Tommy Vercetti", "Tómi Verchéti"), ("Ray Liotta", "Réi Lióta"),
     ("Niko Bellic", "Níko Bélic"), ("Michael", "Máikel"), ("Franklin", "Fránklin"), ("Trevor", "Trévor"),

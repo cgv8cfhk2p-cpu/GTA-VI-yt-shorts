@@ -11,13 +11,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WORK = os.environ.get("SHORTS_WORK", os.path.join(ROOT, "work"))
 
 # Orden de publicación recomendado (lo más buscado primero: lanzamiento de GTA VI)
-ORDEN = ["01_13_anos_de_espera", "03_vice_city_2002_vs_2026", "08_la_mayor_filtracion",
-         "04_evolucion_protagonistas", "10_por_que_tardo_tanto", "05_ciudades_gta_vs_reales",
-         "06_records_gta_v", "02_gta_nacio_de_un_bug", "09_easter_eggs_legendarios",
-         "07_curiosidades_san_andreas"]
+ORDEN = ["01_13_anos_de_espera", "12_ganar_dinero_rapido", "03_vice_city_2002_vs_2026",
+         "14_lo_que_gta6_no_te_explica", "11_trucos_gta6", "08_la_mayor_filtracion",
+         "13_no_pierdas_tu_dinero", "04_evolucion_protagonistas", "10_por_que_tardo_tanto",
+         "05_ciudades_gta_vs_reales", "06_records_gta_v", "02_gta_nacio_de_un_bug",
+         "09_easter_eggs_legendarios", "07_curiosidades_san_andreas"]
 DIAS = ["Vie 20 nov · 15:00", "Vie 20 nov · 15:00", "Vie 20 nov · 15:00", "Sáb 21 nov · 15:00",
         "Dom 22 nov · 15:00", "Lun 23 nov · 15:00", "Mar 24 nov · 15:00", "Mié 25 nov · 15:00",
-        "Jue 26 nov · 15:00", "Vie 27 nov · 15:00"]
+        "Jue 26 nov · 15:00", "Vie 27 nov · 15:00", "Sáb 28 nov · 15:00", "Dom 29 nov · 15:00",
+        "Lun 30 nov · 15:00", "Mar 1 dic · 15:00"]
 
 
 def dur(vid):
@@ -31,19 +33,21 @@ def dur(vid):
 def main():
     by = {v["id"]: v for v in VIDEOS}
     L = []
-    L.append("# Publicación: 10 Shorts de GTA\n")
+    L.append("# Publicación: 14 Shorts de GTA\n")
     L.append("Todos los vídeos están en `videos/` (MP4 vertical 1080×1920, 30 fps, H.264 + AAC, "
              "audio normalizado a −14 LUFS, menos de 60 s). Cada uno tiene su portada `_portada.jpg`.\n")
     L.append("## Calendario\n")
-    L.append("**Opción A (lo que pediste):** programar los 10 para el **viernes 20 de noviembre a las 15:00**.\n")
+    L.append("**Opción A (lo que pediste):** programar los 14 para el **viernes 20 de noviembre a las 15:00**.\n")
     L.append("**Opción B (recomendada para crecer):** los 3 más fuertes el viernes a las 15:00 y luego uno al día "
-             "a la misma hora. Un canal nuevo que sube 10 Shorts a la vez reparte las visualizaciones de prueba "
+             "a la misma hora. Un canal nuevo que sube muchos Shorts a la vez reparte las visualizaciones de prueba "
              "entre todos; publicar a diario le da al algoritmo una señal constante.\n")
     L.append("| # | Vídeo | Duración | Opción B |")
     L.append("|---|---|---|---|")
     for i, vid in enumerate(ORDEN):
         L.append(f"| {i + 1} | `videos/{vid}.mp4` | {dur(vid)} | {DIAS[i]} |")
     L.append("")
+    L.append("> Los vídeos 11–14 (trucos, dinero y consejos de GTA VI) se basan en guías publicadas en la semana "
+             "del lanzamiento. Solo incluyen datos en los que coinciden varias guías, pero conviene revisarlos si sale un parche.\n")
     L.append("## Cómo programarlos (YouTube Studio)\n")
     L.append("1. Crea el canal (nombre sugerido: **Curiosidades GTA**; el texto del logo de los vídeos "
              "se cambia en `BRAND`, dentro de `src/render.py`).")

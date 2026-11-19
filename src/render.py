@@ -299,8 +299,50 @@ def icon(name, acc, acc2):
         d.line([(S * .3, S * .18), (S * .2, S * .04)], fill=WHITE, width=int(S * .02))
         d.line([(S * .7, S * .18), (S * .8, S * .04)], fill=WHITE, width=int(S * .02))
 
+    def lock(d, S, im):
+        d.arc((S * .26, S * .06, S * .74, S * .58), 180, 360, fill=(200, 200, 215, 255), width=int(S * .08))
+        d.line([(S * .3, S * .32), (S * .3, S * .46)], fill=(200, 200, 215, 255), width=int(S * .08))
+        d.line([(S * .7, S * .32), (S * .7, S * .46)], fill=(200, 200, 215, 255), width=int(S * .08))
+        d.rounded_rectangle((S * .14, S * .42, S * .86, S * .94), radius=S * .06, fill=acc + (255,), outline=O, width=int(S * .025))
+        d.ellipse((S * .44, S * .56, S * .56, S * .68), fill=O)
+        d.polygon([(S * .47, S * .64), (S * .53, S * .64), (S * .55, S * .8), (S * .45, S * .8)], fill=O)
+
+    def bank(d, S, im):
+        g = (225, 225, 235, 255)
+        d.polygon([(S * .5, S * .06), (S * .95, S * .3), (S * .05, S * .3)], fill=acc + (255,), outline=O, width=int(S * .02))
+        d.rectangle((S * .08, S * .3, S * .92, S * .37), fill=g)
+        for k in range(4):
+            x = S * (.17 + k * .22)
+            d.rectangle((x - S * .045, S * .4, x + S * .045, S * .78), fill=g)
+        d.rectangle((S * .05, S * .8, S * .95, S * .92), fill=g)
+        d.text((S * .5, S * .2), "$", font=font("black", int(S * .15)), fill=O, anchor="mm")
+
+    def car(d, S, im):
+        body = RED + (255,)
+        d.polygon([(S * .24, S * .44), (S * .34, S * .24), (S * .68, S * .24), (S * .8, S * .44)], fill=body, outline=O, width=int(S * .02))
+        d.polygon([(S * .32, S * .42), (S * .38, S * .29), (S * .49, S * .29), (S * .49, S * .42)], fill=acc2 + (255,))
+        d.polygon([(S * .53, S * .42), (S * .53, S * .29), (S * .65, S * .29), (S * .73, S * .42)], fill=acc2 + (255,))
+        d.rounded_rectangle((S * .04, S * .42, S * .96, S * .7), radius=S * .08, fill=body, outline=O, width=int(S * .02))
+        for x in (.25, .75):
+            d.ellipse((S * x - S * .12, S * .58, S * x + S * .12, S * .82), fill=O)
+            d.ellipse((S * x - S * .05, S * .65, S * x + S * .05, S * .75), fill=(180, 180, 190, 255))
+        d.ellipse((S * .86, S * .48, S * .94, S * .56), fill=acc + (255,))
+
+    def chest(d, S, im):
+        wood = (150, 85, 35, 255)
+        d.chord((S * .08, S * .14, S * .92, S * .62), 180, 360, fill=wood, outline=O, width=int(S * .025))
+        d.rectangle((S * .08, S * .38, S * .92, S * .88), fill=wood, outline=O, width=int(S * .025))
+        for x in (.2, .8):
+            d.rectangle((S * x - S * .04, S * .16, S * x + S * .04, S * .88), fill=acc + (255,))
+        d.rectangle((S * .08, S * .36, S * .92, S * .42), fill=acc + (255,))
+        d.rounded_rectangle((S * .42, S * .36, S * .58, S * .56), radius=S * .03, fill=acc + (255,), outline=O, width=int(S * .015))
+        for k in range(5):
+            x = S * (.28 + k * .11)
+            d.ellipse((x - S * .05, S * .08, x + S * .05, S * .18), fill=(255, 225, 60, 255), outline=O, width=int(S * .01))
+
     fns = dict(warning=warning, star=star, heart=heart, dollar=dollar, trophy=trophy, crown=crown,
-               mountain=mountain, ufo=ufo, pin=pin, gamepad=gamepad, clock=clock, skull=skull, play=play)
+               mountain=mountain, ufo=ufo, pin=pin, gamepad=gamepad, clock=clock, skull=skull, play=play,
+               lock=lock, bank=bank, car=car, chest=chest)
     return _ss(fns[name], 360, glow=acc2)
 
 
