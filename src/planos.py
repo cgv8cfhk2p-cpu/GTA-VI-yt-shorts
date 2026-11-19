@@ -30,6 +30,7 @@ TAGS = {
     "chars": ["c2_09", "c2_20", "c2_15", "c2_19", "c3_01", "c3_04", "c6_16", "c2_05", "c5_16"],
     "cars": ["c2_10", "c4_05", "c5_17", "c6_08", "c5_07", "c2_18"],
     "gator": ["c5_16"],
+    "jason_army": ["c4_02", "c4_06", "c6_09"],
 }
 
 # El clip 3 lleva la marca de agua de otro editor ("Xeamerr") y un contador superpuesto: no se usa.
@@ -66,3 +67,8 @@ PLAN = {
     "14_lo_que_gta6_no_te_explica": [["city_aerial"], ["chars", "gator"], ["boat"], ["cars", "police"],
                                      ["neon", "city_sunset"], ["city_aerial"], ["lj"], ["beach"]],
 }
+
+PLAN["15_secretos_trailers_gta6"] = [["lj", "lucia"], ["jason_army"], ["action"], ["neon", "city_aerial"],
+                                     ["chars", "phone"], ["cars"], ["city_sunset", "beach"]]
+PLAN["16_easter_eggs_gta6"] = [["city_aerial", "neon"], ["swamp", "city_sunset"], ["chars"], ["beach", "city_aerial"],
+                               ["city_aerial", "keys"], ["cars"], ["lj"]]

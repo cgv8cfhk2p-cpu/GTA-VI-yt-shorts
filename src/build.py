@@ -24,8 +24,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WORK = os.environ.get("SHORTS_WORK", os.path.join(ROOT, "work"))
 OUT = os.path.join(ROOT, "videos")
 MODELS = os.environ.get("KOKORO_DIR", os.path.join(ROOT, "models"))
-VOICE = os.environ.get("VOICE", "em_alex")
+# Voz por defecto: Piper es_ES-davefx (más natural). VOICE=em_alex vuelve a la voz Kokoro anterior.
+VOICE = os.environ.get("VOICE", "davefx")
 SPEED = float(os.environ.get("SPEED", "1.12"))
+PIPER_DIR = os.environ.get("PIPER_DIR", os.path.join(ROOT, "models"))
+PIPER_LENGTH = float(os.environ.get("PIPER_LENGTH", "0.9"))  # <1 = más rápido
 SR = 44100
 GAP = 0.28        # silencio entre escenas
 LEAD = 0.05
@@ -33,6 +36,9 @@ LEAD = 0.05
 # Pronunciación: el TTS lee mejor estas palabras escritas "a la española"
 PHON = [
     ("GTA Online", "ge te a onláin"), ("Family Savings", "Fámili Séivings"), ("Buck Me", "Bac Mi"),
+    ("North Fort Law", "Nors Fort Lo"), ("Ammu-Nation", "Ámu Néishon"), ("Phil Cassidy", "Fil Cásidi"),
+    ("New Austin", "Niu Óstin"), ("Seinfeld", "Sáinfeld"), ("Millport", "Mílport"), ("Vice-Dale", "Váis Déil"),
+    ("Washington Island", "Uóshinton Áilan"), ("Vice Beach", "Váis Bich"), ("Dexter", "Déxter"), ("ASS MAN", "as man"),
     ("L1 y R1", "ele uno y erre uno"), ("LB y RB", "ele be y erre be"), ("modo focus", "modo fócus"), ("Kenton", "Kénton"), ("GTA", "ge te a"), ("Rockstar North", "Rocstar Nors"), ("Rockstar", "Rocstar"),
     ("Vice City", "Váis Síti"), ("Liberty City", "Líberti Síti"), ("Race and Chase", "Réis an Chéis"),
     ("DMA Design", "de eme a disáin"), ("Tommy Vercetti", "Tómi Verchéti"), ("Ray Liotta", "Réi Lióta"),
@@ -54,7 +60,8 @@ def phon(text):
 
 
 def wpath(vid, i):
-    return os.path.join(WORK, vid, f"s{i:02d}.wav")
+    tag = "" if VOICE == "em_alex" else "_" + VOICE
+    return os.path.join(WORK, vid, f"s{i:02d}{tag}.wav")
 
 
 def write_wav(path, data, sr):
@@ -74,8 +81,18 @@ def read_wav(path):
 
 
 def do_tts(only=None):
-    from kokoro_onnx import Kokoro
-    k = Kokoro(os.path.join(MODELS, "kokoro-v1.0.onnx"), os.path.join(MODELS, "voices-v1.0.bin"))
+    if VOICE.startswith("em_") or VOICE.startswith("ef_"):
+        from kokoro_onnx import Kokoro
+        k = Kokoro(os.path.join(MODELS, "kokoro-v1.0.onnx"), os.path.join(MODELS, "voices-v1.0.bin"))
+
+        def synth(text):
+            return k.create(text, voice=VOICE, speed=SPEED, lang="es")
+    else:
+        from piper_tts import Piper
+        pp = Piper(os.path.join(PIPER_DIR, f"vits-piper-es_ES-{VOICE}-medium", f"es_ES-{VOICE}-medium.onnx"))
+
+        def synth(text):
+            return pp.synth(text, PIPER_LENGTH)
     for v in VIDEOS:
         if only and v["id"] not in only:
             continue
@@ -84,7 +101,7 @@ def do_tts(only=None):
             p = wpath(v["id"], i)
             if os.path.exists(p):
                 continue
-            samples, sr = k.create(phon(sc["say"]), voice=VOICE, speed=SPEED, lang="es")
+            samples, sr = synth(phon(sc["say"]))
             samples = np.asarray(samples, dtype=np.float32)
             # recorta silencios de los bordes
             idx = np.where(np.abs(samples) > 0.01)[0]

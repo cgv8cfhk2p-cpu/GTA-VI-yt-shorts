@@ -406,3 +406,62 @@ VIDEOS += [
         ],
     },
 ]
+
+VIDEOS += [
+    # ------------------------------------------------------------------ 15
+    {
+        "id": "15_secretos_trailers_gta6",
+        "theme": "night",
+        "title": "Detalles ESCONDIDOS en los tráilers de GTA 6 que casi nadie vio 👀 #shorts",
+        "description": (
+            "La camiseta de Jason, el Ammu-Nation de Phil, la iguana de Tommy Vercetti y la ciudad de Hamlet: "
+            "los guiños escondidos en los tráilers de GTA 6.\n\n#gta6 #gtavi #eastereggs #secretos #gta #shorts"
+        ),
+        "tags": ["gta 6 secretos", "gta 6 easter eggs", "detalles trailer gta 6", "gta 6 trailer", "gta vi",
+                 "tommy vercetti gta 6", "phil cassidy", "curiosidades gta 6"],
+        "scenes": [
+            {"say": "Detalles escondidos en los tráilers de GTA 6 que casi nadie vio.",
+             "vis": {"type": "title", "lines": ["SECRETOS DE", "LOS TRÁILERS"]}},
+            {"say": "Uno. La camiseta militar de Jason es de North Fort Law, la primera base militar de la saga, de los GTA en 2D.",
+             "vis": {"type": "facts", "num": "1", "icon": "star", "head": "LA CAMISETA DE JASON", "body": "North Fort Law: la base militar de los GTA en 2D"}},
+            {"say": "Dos. En un tráiler aparece una tienda llamada Phil's Ammu-Nation. Un guiño a Phil Cassidy, el loco de las armas de los GTA clásicos.",
+             "vis": {"type": "facts", "num": "2", "icon": "skull", "head": "PHIL'S AMMU-NATION", "body": "Guiño a Phil Cassidy, de Vice City"}},
+            {"say": "Tres. Los fans vieron una iguana pintada que parece llevar la camisa hawaiana de Tommy Vercetti.",
+             "vis": {"type": "facts", "num": "3", "icon": "heart", "head": "LA IGUANA DE TOMMY", "body": "Con la camisa hawaiana de Vice City"}},
+            {"say": "Cuatro. La mujer de los dos martillos parodia un vídeo viral real de 2020. Y el mensaje en pantalla ya adelantaba la ciudad de Hamlet.",
+             "vis": {"type": "facts", "num": "4", "icon": "play", "head": "LA DE LOS MARTILLOS", "body": "Parodia de un vídeo viral real de 2020"}},
+            {"say": "Y cinco. Las matrículas de los coches ponen Leonida, el nombre del estado mucho antes de que Rockstar lo confirmara.",
+             "vis": {"type": "facts", "num": "5", "icon": "car", "head": "LAS MATRÍCULAS", "body": "«Leonida» antes del anuncio oficial"}},
+            {"say": "¿Cuál habías visto? Sígueme para más secretos de GTA 6.",
+             "vis": {"type": "outro", "q": "¿Cuál *habías visto?*"}},
+        ],
+    },
+    # ------------------------------------------------------------------ 16
+    {
+        "id": "16_easter_eggs_gta6",
+        "theme": "vice",
+        "title": "Easter eggs que YA han encontrado en GTA 6 🥚 #shorts",
+        "description": (
+            "Guiños a Red Dead y a GTA IV, el apartamento de Dexter, el nido secreto de la torre de radio "
+            "y la matrícula más loca del juego.\n\n#gta6 #gtavi #eastereggs #secretos #gta #shorts"
+        ),
+        "tags": ["easter eggs gta 6", "secretos gta 6", "gta 6 dexter", "gta 6 red dead", "gta 6 nido torre",
+                 "gta 6 curiosidades", "gta vi", "gta 6 secretos mapa"],
+        "scenes": [
+            {"say": "Easter eggs que los jugadores ya han encontrado en GTA 6.",
+             "vis": {"type": "title", "lines": ["EASTER EGGS", "DE *GTA VI*"]}},
+            {"say": "Uno. En la taberna de Millport hay un libro del oeste ambientado en New Austin. Sí, el mundo de Red Dead Redemption.",
+             "vis": {"type": "facts", "num": "1", "icon": "star", "head": "GUIÑO A RED DEAD", "body": "Un libro ambientado en New Austin"}},
+            {"say": "Dos. En casa de Jason hay unas memorias de un exmafioso de Liberty City que hablan de lo que pasó en 2008. El año de GTA 4.",
+             "vis": {"type": "facts", "num": "2", "icon": "crown", "head": "GUIÑO A GTA IV", "body": "Memorias de un mafioso de Liberty City"}},
+            {"say": "Tres. El edificio de Dexter, el de la serie, está en Washington Island, cerca de Vice Beach. Eso sí, no se puede entrar.",
+             "vis": {"type": "facts", "num": "3", "icon": "pin", "head": "EL PISO DE DEXTER", "body": "En Washington Island, cerca de Vice Beach"}},
+            {"say": "Cuatro. En lo alto de la torre de radio más alta de Vice-Dale hay un nido. Subes unos siete minutos, coges un huevo, lo tiras… y hay cinemática.",
+             "vis": {"type": "facts", "num": "4", "icon": "mountain", "head": "EL NIDO SECRETO", "body": "7 minutos de subida y un huevo especial"}},
+            {"say": "Y cinco. El coche rojo que Jason saca del depósito de Hamlet lleva la matrícula ASS MAN. Un guiño a un capítulo famoso de Seinfeld.",
+             "vis": {"type": "facts", "num": "5", "icon": "car", "head": "MATRÍCULA «ASS MAN»", "body": "Guiño a un capítulo de Seinfeld"}},
+            {"say": "¿Cuál has encontrado tú? Te leo en comentarios.",
+             "vis": {"type": "outro", "q": "¿Cuál has *encontrado tú?*"}},
+        ],
+    },
+]
