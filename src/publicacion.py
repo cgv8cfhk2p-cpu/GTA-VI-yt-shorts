@@ -48,6 +48,10 @@ def main():
     L.append("")
     L.append("> Los vídeos 11–14 (trucos, dinero y consejos de GTA VI) se basan en guías publicadas en la semana "
              "del lanzamiento. Solo incluyen datos en los que coinciden varias guías, pero conviene revisarlos si sale un parche.\n")
+    L.append("> **Planos de los tráilers:** los vídeos 01, 03, 05, 08, 10, 11, 12, 13 y 14 usan imágenes de los tráilers "
+             "oficiales de GTA VI (sin su audio). Pueden recibir una reclamación de Content ID de Rockstar. Si pasa, "
+             "normalmente el vídeo sigue publicado, pero los ingresos de ese vídeo pueden ir para Rockstar o puede quedar "
+             "bloqueado en algunos países. Revisa el aviso en YouTube Studio → Contenido → Restricciones.\n")
     L.append("## Cómo programarlos (YouTube Studio)\n")
     L.append("1. Crea el canal (nombre sugerido: **Curiosidades GTA**; el texto del logo de los vídeos "
              "se cambia en `BRAND`, dentro de `src/render.py`).")
