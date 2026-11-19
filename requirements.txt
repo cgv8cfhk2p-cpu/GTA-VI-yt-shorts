@@ -1,0 +1,8 @@
+numpy
+scipy
+pillow
+kokoro-onnx
+soundfile
+onnxruntime
+phonemizer-fork
+espeakng-loader
